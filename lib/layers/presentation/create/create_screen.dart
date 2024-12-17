@@ -116,7 +116,7 @@ class CreateTaskScreen extends StatelessWidget {
                   // Priority Section
                   const Text("Priority"),
                   SizedBox(height: 8.h),
-                  const Row(
+                  Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       PriorityChip(Priority.low, Colors.green),
